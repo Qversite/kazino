@@ -1,0 +1,167 @@
+.label {
+    -fx-text-fill: #252525;
+}
+
+#anchorPane {
+    -fx-background-color: #DEB887;
+}
+
+#labelAnchorMain {
+    -fx-text-fill: #fff;
+}
+
+.tab-pane *.tab-header-background {
+    -fx-background-color: #252525;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 0 0 0 10px;
+}
+
+.tab {
+    -fx-background-color: #FFEFD5;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.tab:hover {
+    -fx-background-color: #252525;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+}
+
+.tab:selected {
+    -fx-background-color: #252525;
+    -fx-border-color: transparent;
+}
+
+.tab .tab-label {
+    -fx-padding: 0 10px 0 10px;
+    -fx-font-size: 16px;
+    -fx-text-fill: #252525;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 100px;
+    -fx-tab-max-width: 120px;
+    -fx-tab-min-height: 40px;
+    -fx-tab-max-height: 50px;
+    -fx-background-color: #252525;
+}
+
+#anchor__main {
+    -fx-background-color: #252525;
+}
+
+#label__main {
+    -fx-font-size: 26px;
+    -fx-text-fill: #fff;
+}
+
+.table-view {
+    -fx-base: #FFEFD5;
+    -fx-control-inner-background: #FFEFD5;
+    -fx-background-color: #FFEFD5;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 15px 10px 10px 10px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent derive(-fx-base, 80%) transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-insets: 0 20 0 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 22px;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #252525;
+    -fx-border-color: transparent;
+}
+
+
+.text-field {
+    -fx-font-size: 25px;
+    -fx-border-color: #252525;
+    -fx-alignment: center;
+    -fx-text-fill: #252525;
+}
+
+.text-field:focused {
+    -fx-border-color: #252525;
+}
+
+.combo-box {
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-cell-size: 1.66667em;
+}
+
+.combo-box:hover {
+    -fx-border-color: #252525;
+}
+
+.combo-box:focused {
+    -fx-border-color: #252525;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #252525;
+    -fx-background: #252525;
+    -fx-text-fill: #fff;
+    -fx-border-color: transparent;
+    -fx-font-size: 14px;
+    -fx-cursor: pointer;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #252525;
+}
+
+.button {
+    -fx-padding: 10px 10px 10px 10px;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+    -fx-text-fill: #252525;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+}
+
+.button:hover {
+    -fx-border-radius: 5px;
+    -fx-text-fill: #252525;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-text-fill: #fff;
+}
+
+.button:focused {
+    -fx-border-color: black, black;
+    -fx-border-width: 1, 1;
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-text-fill: #252525;
+}

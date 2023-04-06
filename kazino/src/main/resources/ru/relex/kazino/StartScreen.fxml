@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="600.0" stylesheets="@../../../css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.relex.kazino.ControllerMainApp">
+    <children>
+        <TextField fx:id="oneNumber" disable="true" layoutX="323.0" layoutY="62.0" prefHeight="50.0" prefWidth="50.0" />
+        <TextField fx:id="threeNumber" disable="true" layoutX="462.0" layoutY="62.0" prefHeight="50.0" prefWidth="50.0" />
+        <TextField fx:id="twoNumber" disable="true" layoutX="392.0" layoutY="62.0" prefHeight="50.0" prefWidth="50.0" />
+        <Button layoutX="81.0" layoutY="43.0" mnemonicParsing="false" onAction="#drumScroll" prefHeight="42.0" prefWidth="200.0" text="Крутить" />
+        <Button layoutX="81.0" layoutY="97.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="42.0" prefWidth="200.0" text="Выход" />
+      <ImageView fx:id="image" fitHeight="251.0" fitWidth="600.0" layoutY="232.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../image/kazino.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="statistics" layoutX="14.0" layoutY="184.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
